@@ -31,7 +31,7 @@ public class GCalczGUI {
                 mainFrame.add(new FullPane());
                 mainFrame.pack();
                 mainFrame.setLocationRelativeTo(null);
-                mainFrame.setSize(500,450);
+                mainFrame.setSize(500,375);
                 mainFrame.setResizable(false);
                 mainFrame.setVisible(true);
             }
@@ -100,7 +100,7 @@ public class GCalczGUI {
             button7GridConstraints.ipady = 20;
             button7GridConstraints.gridy = 1;
             button7GridConstraints.weightx = .25;
-            button7GridConstraints.insets = new Insets(20,20,20,20);
+            button7GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button7, button7GridConstraints);
 
             button8GridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -108,7 +108,7 @@ public class GCalczGUI {
             button8GridConstraints.ipady = 20;
             button8GridConstraints.gridy = 1;
             button8GridConstraints.weightx = .25;
-            button8GridConstraints.insets = new Insets(20,20,20,20);
+            button8GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button8, button8GridConstraints);
 
             button9GridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -116,7 +116,7 @@ public class GCalczGUI {
             button9GridConstraints.ipady = 20;
             button9GridConstraints.gridy = 1;
             button9GridConstraints.weightx = .25;
-            button9GridConstraints.insets = new Insets(20,20,20,20);
+            button9GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button9, button9GridConstraints);
 
             buttonDivideGridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -124,7 +124,7 @@ public class GCalczGUI {
             buttonDivideGridConstraints.ipady = 20;
             buttonDivideGridConstraints.gridy = 1;
             buttonDivideGridConstraints.weightx = .25;
-            buttonDivideGridConstraints.insets = new Insets(20,20,20,20);
+            buttonDivideGridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(buttonDivide, buttonDivideGridConstraints);
 
             //Row 2
@@ -133,7 +133,7 @@ public class GCalczGUI {
             button4GridConstraints.ipady = 20;
             button4GridConstraints.gridy = 2;
             button4GridConstraints.weightx = .25;
-            button4GridConstraints.insets = new Insets(20,20,20,20);
+            button4GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button4, button4GridConstraints);
 
             button5GridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -141,7 +141,7 @@ public class GCalczGUI {
             button5GridConstraints.ipady = 20;
             button5GridConstraints.gridy = 2;
             button5GridConstraints.weightx = .25;
-            button5GridConstraints.insets = new Insets(20,20,20,20);
+            button5GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button5, button5GridConstraints);
 
             button6GridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -149,7 +149,7 @@ public class GCalczGUI {
             button6GridConstraints.ipady = 20;
             button6GridConstraints.gridy = 2;
             button6GridConstraints.weightx = .25;
-            button6GridConstraints.insets = new Insets(20,20,20,20);
+            button6GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button6, button6GridConstraints);
 
             buttonMultiplyGridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -157,7 +157,7 @@ public class GCalczGUI {
             buttonMultiplyGridConstraints.ipady = 20;
             buttonMultiplyGridConstraints.gridy = 2;
             buttonMultiplyGridConstraints.weightx = .25;
-            buttonMultiplyGridConstraints.insets = new Insets(20,20,20,20);
+            buttonMultiplyGridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(buttonMultiply, buttonMultiplyGridConstraints);
 
             //Row 3
@@ -166,7 +166,7 @@ public class GCalczGUI {
             button1GridConstraints.ipady = 20;
             button1GridConstraints.gridy = 3;
             button1GridConstraints.weightx = .25;
-            button1GridConstraints.insets = new Insets(20,20,20,20);
+            button1GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button1, button1GridConstraints);
 
             button2GridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -174,7 +174,7 @@ public class GCalczGUI {
             button2GridConstraints.ipady = 20;
             button2GridConstraints.gridy = 3;
             button2GridConstraints.weightx = .25;
-            button2GridConstraints.insets = new Insets(20,20,20,20);
+            button2GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button2, button2GridConstraints);
 
             button3GridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -182,7 +182,7 @@ public class GCalczGUI {
             button3GridConstraints.ipady = 20;
             button3GridConstraints.gridy = 3;
             button3GridConstraints.weightx = .25;
-            button3GridConstraints.insets = new Insets(20,20,20,20);
+            button3GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button3, button3GridConstraints);
 
             buttonMinusGridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -190,7 +190,7 @@ public class GCalczGUI {
             buttonMinusGridConstraints.ipady = 20;
             buttonMinusGridConstraints.gridy = 3;
             buttonMinusGridConstraints.weightx = .25;
-            buttonMinusGridConstraints.insets = new Insets(20,20,20,20);
+            buttonMinusGridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(buttonMinus, buttonMinusGridConstraints);
 
             //Row 4
@@ -200,7 +200,7 @@ public class GCalczGUI {
             button0GridConstraints.gridy = 4;
             button0GridConstraints.weightx = .25;
             button0GridConstraints.gridwidth = 2;
-            button0GridConstraints.insets = new Insets(20,20,20,20);
+            button0GridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(button0, button0GridConstraints);
 
             buttonPlusGridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -208,7 +208,7 @@ public class GCalczGUI {
             buttonPlusGridConstraints.ipady = 20;
             buttonPlusGridConstraints.gridy = 4;
             buttonPlusGridConstraints.weightx = .25;
-            buttonPlusGridConstraints.insets = new Insets(20,20,20,20);
+            buttonPlusGridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(buttonPlus, buttonPlusGridConstraints);
 
             buttonEqualsGridConstraints.fill = GridBagConstraints.HORIZONTAL;
@@ -217,7 +217,7 @@ public class GCalczGUI {
             buttonEqualsGridConstraints.gridy = 4;
             buttonEqualsGridConstraints.weightx = .25;
             buttonEqualsGridConstraints.gridheight = 2;
-            buttonEqualsGridConstraints.insets = new Insets(20,20,20,20);
+            buttonEqualsGridConstraints.insets = new Insets(10,10,10,10);
             gridPanelBuilder.add(buttonEquals, buttonEqualsGridConstraints);
 
             return gridPanelBuilder;
