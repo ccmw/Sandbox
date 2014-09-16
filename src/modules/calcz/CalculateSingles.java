@@ -46,7 +46,7 @@ public class CalculateSingles {
                 mathTotal = decimalList.get(f);
             } else {
                 String s = operatorList.get(f - 1);
-                try{
+                try {
                     switch (s) {
                         case "+":
                             mathTotal = mathTotal + decimalList.get(f);
@@ -61,7 +61,7 @@ public class CalculateSingles {
                             mathTotal = mathTotal / decimalList.get(f);
                             break;
                     }
-                }catch(Exception ex){
+                } catch (Exception ex) {
                     System.out.println("Unable to compute: " + ex);
                 }
 
