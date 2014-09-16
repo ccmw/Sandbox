@@ -1,5 +1,6 @@
 import modules.bbcalculator.Calculator;
 import modules.calcz.Calcz;
+import modules.gcalcz.GCalczGUI;
 import modules.speedmath.Speedmath;
 
 import java.util.Scanner;
@@ -9,7 +10,7 @@ public class DecisionModule {
         Scanner reader = new Scanner(System.in);
         boolean allDone = false;
         final String[] DECISIONCHOICES = {
-                "A) MW-Calcz", "B) BB-Calculator", "C) MW-Sp33dm4th", "Exit"};
+                "A) MW-Calcz", "B) MW-GCalcz", "C) BB-Calculator", "D) MW-Sp33dm4th", "Exit"};
         String choiceMade;
 
         while (!allDone) {
@@ -26,9 +27,12 @@ public class DecisionModule {
                     Calcz calculatorModule = new Calcz();
                     break;
                 case "B":
-                    Calculator bbcalculatorModule = new Calculator();
+                    GCalczGUI graphicCalculatorModule = new GCalczGUI();
                     break;
                 case "C":
+                    Calculator bbcalculatorModule = new Calculator();
+                    break;
+                case "D":
                     Speedmath speedmathModule = new Speedmath();
                     break;
                 case "EXIT":
